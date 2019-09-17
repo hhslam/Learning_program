@@ -1,0 +1,7 @@
+a.h
+ extern int variable;
+a.cpp
+ int variable ; //定义全局变量
+b.cpp
+# include a.h
+extern int variable; //声明 
